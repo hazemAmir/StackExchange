@@ -27,3 +27,11 @@ The data directory contains all about data for training and testing alignment ap
      |
      |
      |___eval/
+             |   
+             |___train/earthscience.csv
+             |            
+             |  
+             |___dev/earthscience.csv   
+             |
+             |
+             |___test/earthscience.csv  
