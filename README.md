@@ -1,6 +1,6 @@
 # A Multi-Domain Framework for Textual Similarity.
 
-## A Case Study on Question-to-Question and Question-Answering Similarity Tasks.
+### A Case Study on Question-to-Question and Question-Answering Similarity Tasks.
 
 We use the community question answering forum Stack-Exchange to extract posts and pairs of questions and answers from multiple domains.  We evaluate two baseline approaches over 19 domains and provide preliminary results on multiple annotated question-answering datasets to deal with question-answering similarity task.
 
@@ -23,7 +23,7 @@ This software depends on NumPy and Scipy, two Python packages for scientific com
 To install **this source** please type: 
 
 ```
-git clonehttps://github.com/hazemAmir/StackExchange.git
+git clone https://github.com/hazemAmir/StackExchange.git
 ```
 ## Usage
 
