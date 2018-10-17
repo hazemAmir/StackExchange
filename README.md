@@ -2,11 +2,32 @@
 
 ## A Case Study on Question-to-Question and Question-Answering Similarity Tasks.
 
-we use the community question answering forum Stack-Exchange to extract posts and pairs of questions and answers from multiple domains.  We evaluate two baseline approaches over 19 domains and provide preliminary results on multiple annotated question-answering datasets to deal with question-answering similarity task.
+We use the community question answering forum Stack-Exchange to extract posts and pairs of questions and answers from multiple domains.  We evaluate two baseline approaches over 19 domains and provide preliminary results on multiple annotated question-answering datasets to deal with question-answering similarity task.
 
 The paper can be found [here](http://www.amirhazem.ovh/publications/year/2018/LREC/LREC_2018_Paper_Textual_Similarity.pdf)
 
 When citing **this work** in academic papers and theses, please use the following BibTeX: [bib](http://www.amirhazem.ovh/publications/year/2018/LREC/bib.txt)
+
+## Requirements
+
+- Python 2.7 for **MappSent** and Python 3 for **VecMap**
+- NumPy
+- SciPy
+
+## Installing
+This software depends on NumPy and Scipy, two Python packages for scientific computing.  
+
+To install **this source** please type: 
+
+```
+git clone https://github.com/hazemAmir/MappSent.git
+```
+## Usage
+
+
+
+
+
 
 ## Authors
 
