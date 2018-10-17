@@ -14,7 +14,8 @@ When citing **this work** in academic papers and theses, please use the followin
 - NumPy
 - SciPy
 ### StackExchange Data Sets 
-Due to the large size of the corpus, the data sets can be downloaded [here](). 
+Due to the large size of the corpus, the data sets can be downloaded [here](https://uncloud.univ-nantes.fr/index.php/s/9Ei9WykrGzMDcDb).
+Please put the dowloaded directories (models/ and data/) under the root directory.
 
 ## Installing
 This software depends on NumPy and Scipy, two Python packages for scientific computing.  
