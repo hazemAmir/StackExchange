@@ -10,20 +10,20 @@ The data directory contains all about data for training and testing alignment ap
      |
      |___corpoa/
      |         |  
-     |         |___train/
-     |                  |___QQ/
-     |                  |      |___lem/
-     |                  |      |      | 
-     |                  |      |      |___ earthscience.stackexchange/Q1.txt
-     |                  |      |      |                              |Q2.txt...Qn.txt
-     |                  |      |      |                              
-     |                  |      |      |
-     |                  |      |      |___earthscience.csv ()
-     |                  |      |      
-     |                  |      |      
-     |                  |      |___lempostag/same as lem/ with postags added for each token 
-     |                  |  
-     |                  |___QA/same as QQ with the corresponding answers to each paire of questions                   
+     |         |
+     |         |___QQ/
+     |         |      |___lem/
+     |         |      |      | 
+     |         |      |      |___ earthscience.stackexchange/Q1.txt
+     |         |      |      |                              |Q2.txt...Qn.txt
+     |         |      |      |                              
+     |         |      |      |
+     |         |      |      |___earthscience.csv ()
+     |         |      |      
+     |         |      |      
+     |         |      |___lempostag/same as lem/ with postags added for each token 
+     |         |  
+     |         |___QA/same as QQ with the corresponding answers to each paire of questions                   
      |
      |
      |___eval/
