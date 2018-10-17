@@ -4,6 +4,9 @@
 
 we use the community question answering forum Stack-Exchange to extract posts and pairs of questions and answers from multiple domains.  We evaluate two baseline approaches over 19 domains and provide preliminary results on multiple annotated question-answering datasets to deal with question-answering similarity task.
 
+The paper can be found [here](http://www.amirhazem.ovh/publications/year/2018/LREC/LREC_2018_Paper_Textual_Similarity.pdf)
+
+When citing **this work** in academic papers and theses, please use the following BibTeX: [bib](http://www.amirhazem.ovh/publications/year/2018/LREC/bib.txt)
 
 ## Authors
 
