@@ -28,7 +28,23 @@ git clone https://github.com/hazemAmir/StackExchange.git
 ```
 ## Usage
 
+### Question to question similarity 
+SentEmb approach:
+----------------
 
+To reproduce the results of the SentEmb approach please run the following script under scripts/ directory:
+
+```
+ command : python run_baseline_QQ.py corpus dim eval_ flag
+ example : python run_baseline_QQ.py earthscience 100 dev 0
+
+- corpus : one of the 19 available corpora (sports, earthscience, cooking...)
+- dim    : the number of dimensions of the word embedding model (100/300)
+- eval_  : evaluations on the development (dev) or the test (test) set
+- flag   : 0 to reproduce the results of LREC 2018
+            the results are slightly modified (they are better in some cases).
+           Due to some "nan" numbers when applying cosine similarity, the python sort function put nan numbers at some arbitrary ranks which affect slightly the MAP scores. (This case is rare but needed to be fixed) 
+```
 
 
 
