@@ -13,6 +13,8 @@ When citing **this work** in academic papers and theses, please use the followin
 - Python 2.7 for **MappSent** and Python 3 for **VecMap**
 - NumPy
 - SciPy
+### StackExchange Data Sets 
+Due to the large size of the corpus, the data setcan be downloaded [here](). 
 
 ## Installing
 This software depends on NumPy and Scipy, two Python packages for scientific computing.  
@@ -20,7 +22,7 @@ This software depends on NumPy and Scipy, two Python packages for scientific com
 To install **this source** please type: 
 
 ```
-git clone https://github.com/hazemAmir/MappSent.git
+git clonehttps://github.com/hazemAmir/StackExchange.git
 ```
 ## Usage
 
