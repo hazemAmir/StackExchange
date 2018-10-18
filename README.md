@@ -139,7 +139,6 @@ python run_baseline_QQ.py expatriates 100 dev 0
     -------------
 MAP =	65.77
 ********************************
-
 ```
 Results on dev expatriates set with flag = 1 (new results): 
 -------------------------------------------------------------
@@ -195,10 +194,6 @@ python run_baseline_QQ.py expatriates 100 dev 1
     -------------
 MAP =	68.85
 ********************************
-
-
-
-
 ```
 
 
