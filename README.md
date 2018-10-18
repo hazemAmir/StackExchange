@@ -39,13 +39,11 @@ We provide 19 data sets that we extracted from the StackExchange community quest
 ```
 - Corpus:            each corpus corresponds to a given StackExchange topic.     
 - token:             number of tokens of all the posts of a given topic.   
-- all posts:         the number of posts (each post is composed of a question and a couple of answers and comments). The comments were not considered in our extraction process. We only kept answer with a high confidense score given by users (the scores are given in the metadata provided in stackexchange)
+- all posts:         the number of posts (each post is composed of a question and a couple of answers and comments). The comments were not considered in our extraction process. We only kept answers with a high confidense score given by users (the scores are given in the metadata provided in stackexchange)
 - filtered posts:    the number of posts that we kept after filtering all the posts that didn't contain a question mark in the question. This choice was done because posts are selected automatically. A manual selection would be obviously better but due to the size of the corpora we didn't address it this way. 
 - test:              the number of test questions.
 ```
-We plan to include other data sets to reach the entire dump of about 180 topics in the near future
-
-
+We plan to include other data sets to reach the entire StackExchange dump of about 180 topics in the near future. 
 
 
 Due to the large size of the corpus, the data sets can be downloaded [here](https://uncloud.univ-nantes.fr/index.php/s/9Ei9WykrGzMDcDb).
