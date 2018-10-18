@@ -85,9 +85,11 @@ To reproduce the results of the SentEmb approach please run the following script
           1 the results are slightly different (they are better in some cases).
             due to some "nan" numbers when applying cosine similarity, the python sort function put nan numbers at some arbitrary ranks which affect slightly the MAP scores. (This case is rare but needed to be fixed) 
 ```
-Results: 
---------
+Results on dev expatriates set with flag = 0 (paper results): 
+-------------------------------------------------------------
+run the following command: 
 python run_baseline_QQ.py expatriates 100 dev 0
+
 ```
 ********************************
 ***** Question to question *****
@@ -139,8 +141,65 @@ MAP =	65.77
 ********************************
 
 ```
+Results on dev expatriates set with flag = 1 (new results): 
+-------------------------------------------------------------
+run the following command: 
+python run_baseline_QQ.py expatriates 100 dev 1
+
+```
+********************************
+***** Question to question *****
+*****   Similarity task    *****
+********************************
+
+570 	Stopwords
+3717 	Words vectors
+2738 	Corpus questions
+137 	Original questions
+137 	Related questions
+274 	All questions
+274 	Questions sum computed
+137	Evaluation questions
+
+********************************
+***	 Ranking results     ***
+********************************
+
+--> Accuracy @ TOP K
+    ----------------
+ TOP	| Acc(%)|
+ 1	| 61.31	|
+ 5	| 75.91	|
+ 10	| 85.4	|
+ 15	| 89.78	|
+ 20	| 93.43	|
+ 25	| 94.16	|
+ 30	| 94.89	|
+ 35	| 94.89	|
+ 40	| 94.89	|
+ 45	| 94.89	|
+ 50	| 95.62	|
+ 55	| 95.62	|
+ 60	| 95.62	|
+ 65	| 97.08	|
+ 70	| 97.08	|
+ 75	| 97.08	|
+ 80	| 97.08	|
+ 85	| 97.81	|
+ 90	| 97.81	|
+ 95	| 97.81	|
+ 100	| 97.81	|
+********************************
+
+--> MAP Score (%)
+    -------------
+MAP =	68.85
+********************************
 
 
+
+
+```
 
 
 
