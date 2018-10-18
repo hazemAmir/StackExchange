@@ -85,6 +85,66 @@ To reproduce the results of the SentEmb approach please run the following script
           1 the results are slightly different (they are better in some cases).
             due to some "nan" numbers when applying cosine similarity, the python sort function put nan numbers at some arbitrary ranks which affect slightly the MAP scores. (This case is rare but needed to be fixed) 
 ```
+Results: 
+--------
+python run_baseline_QQ.py expatriates 100 dev 0
+```
+********************************
+***** Question to question *****
+*****   Similarity task    *****
+********************************
+
+570 	Stopwords
+3717 	Words vectors
+2738 	Corpus questions
+137 	Original questions
+137 	Related questions
+274 	All questions
+274 	Questions sum computed
+137	Evaluation questions
+
+********************************
+***	 Ranking results     ***
+********************************
+
+--> Accuracy @ TOP K
+    ----------------
+ TOP	| Acc(%)|
+ 1	| 58.39	|
+ 5	| 72.99	|
+ 10	| 81.75	|
+ 15	| 86.86	|
+ 20	| 89.78	|
+ 25	| 90.51	|
+ 30	| 90.51	|
+ 35	| 90.51	|
+ 40	| 90.51	|
+ 45	| 91.24	|
+ 50	| 91.97	|
+ 55	| 91.97	|
+ 60	| 92.7	|
+ 65	| 92.7	|
+ 70	| 92.7	|
+ 75	| 93.43	|
+ 80	| 94.16	|
+ 85	| 94.16	|
+ 90	| 95.62	|
+ 95	| 95.62	|
+ 100	| 95.62	|
+********************************
+
+--> MAP Score (%)
+    -------------
+MAP =	65.77
+********************************
+
+```
+
+
+
+
+
+
 MappSent approach:
 ----------------
 Coming soon
@@ -107,6 +167,8 @@ To reproduce the results of the SentEmb approach please run the following script
 - flag  : 0 to reproduce the results of LREC 2018
           1 the results are slightly different (they are better in some cases).
             due to some "nan" numbers when applying cosine similarity, the python sort function put nan numbers at some arbitrary ranks which affect slightly the MAP scores. (This case is rare but needed to be fixed) 
+            
+            
 ```
 MappSent approach:
 ----------------
