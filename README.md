@@ -15,7 +15,40 @@ When citing **this work** in academic papers and theses, please use the followin
 - Python 2.7
 - NumPy
 - SciPy
-### StackExchange Data Sets 
+## StackExchange Data Sets 
+We provide 19 data sets that we extracted from the StackExchange community question answering forum. 
+
+    Corpus        | token  | #all posts | #filtered posts |  #test  |
+    -----------------------------------------------------------------      
+    Earth Science |  221K  |    2.2k    |      1.6k       |   169   |
+    Expatriates   |  185k  |    2.6k    |      1.3k       |   137   |
+    Health        |  276k  |    2.9k    |      2.2k       |   223   |
+    Sports        |  264K  |    3.2k    |      2.3k       |   240   |
+    Politics      |  415K  |    3.2k    |      2.8k       |   282   |
+    Pets          |  373k  |    3.4k    |      2.5k       |   253   |
+    Economics     |  333k  |    4.1k    |      2.1k       |   210   |
+    Law           |  609k  |    5.1k    |      3.6k       |   365   |
+    History       |  741k  |    6.1k    |      5.2k       |   522   |
+    Philosophy    |  1.1M  |    7.3k    |      5.7k       |   575   |
+    Music         |  701k  |    9.1k    |      5.4k       |   544   |
+    Workplace     |  1.7M  |   12.9k    |      8.2k       |   830   |
+    Biology       |  1.1M  |   14.1k    |       10k       |  1001   |
+    Cooking       |  1.2M  |     16k    |     11.3k       |  1132   |
+    Chemistry     |  1.3M  |   18.5k    |     10.4k       |  1042   |
+    Travel        |  1.6M  |   20.6k    |     12.9k       |  1297   |
+    Physics       | 7.02M  |   87.2k    |     44.4k       |  4443   |
+    AskUbuntu     | 11.1M  |    248k    |     79.1k       |  7912   |
+    Math          | 28.8M  |    702k    |      168k       | 16820   |
+    -----------------------------------------------------------------
+
+
+
+
+We plan to include other data sets to reach the entire dump of about 180 topics in the near future
+
+
+
+
 Due to the large size of the corpus, the data sets can be downloaded [here](https://uncloud.univ-nantes.fr/index.php/s/9Ei9WykrGzMDcDb).
 
 Please put the dowloaded directories (models/ and data/) under the root directory.
