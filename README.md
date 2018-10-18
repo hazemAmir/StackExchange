@@ -35,13 +35,13 @@ We provide 19 data sets that we extracted from the StackExchange community quest
     AskUbuntu     | 11.1M  |    248k    |     79.1k       |  7912   |
     Math          | 28.8M  |    702k    |      168k       | 16820   |
     -----------------------------------------------------------------
-
+```
 - Corpus:            each corpus orresponds to a given StackExchange topic.     
 - token:             number of tokens of all the posts of a given topic.   
 - all posts:         the number of posts (each post is composed of a question, answers and comments).
 - filtered posts:    the number of posts that we kept after filtering all the posts that didn'y contain a question mark in the question. This choice was done because posts are selected aotomatically. A manual selection would be obviously better but due to the size of the corpora we didn't addressed it this way. 
 - test:              the number of test questions.
-
+```
 We plan to include other data sets to reach the entire dump of about 180 topics in the near future
 
 
