@@ -13,7 +13,7 @@ When citing **this work** in academic papers and theses, please use the followin
 ## StackExchange Data Sets 
 We provide 19 data sets that we extracted from the StackExchange community question answering forum. 
 
-    Corpus        | token  | #all posts | #filtered posts |  #test  |
+    Corpus        | #token | #all posts | #filtered posts |  #test  |
     -----------------------------------------------------------------      
     Earth Science |  221K  |    2.2k    |      1.6k       |   169   |
     Expatriates   |  185k  |    2.6k    |      1.3k       |   137   |
@@ -37,10 +37,10 @@ We provide 19 data sets that we extracted from the StackExchange community quest
     -----------------------------------------------------------------
                 Size of the multi-domain datasets 
 ```
-- Corpus:            each corpus orresponds to a given StackExchange topic.     
+- Corpus:            each corpus corresponds to a given StackExchange topic.     
 - token:             number of tokens of all the posts of a given topic.   
-- all posts:         the number of posts (each post is composed of a question, answers and comments).
-- filtered posts:    the number of posts that we kept after filtering all the posts that didn'y contain a question mark in the question. This choice was done because posts are selected aotomatically. A manual selection would be obviously better but due to the size of the corpora we didn't addressed it this way. 
+- all posts:         the number of posts (each post is composed of a question and a couple of answers and comments). The comments were not considered in our extraction process. We only kept answer with a high confidense score given by users (the scores are given in the metadata provided in stackexchange)
+- filtered posts:    the number of posts that we kept after filtering all the posts that didn't contain a question mark in the question. This choice was done because posts are selected automatically. A manual selection would be obviously better but due to the size of the corpora we didn't address it this way. 
 - test:              the number of test questions.
 ```
 We plan to include other data sets to reach the entire dump of about 180 topics in the near future
