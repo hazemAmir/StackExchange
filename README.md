@@ -4,7 +4,7 @@ The aim of this work is to provide a unified framework to evaluate embedding mod
 
 ### A Case Study on Question-to-Question and Question-Answering Similarity Tasks.
 We use the community question answering forum Stack-Exchange to extract posts and pairs of questions and answers from multiple domains.  We evaluate two baseline approaches over 19 domains and provide preliminary results on multiple annotated question-answering datasets to deal with question-answering similarity task.
-We evaluatio is performed using two bottom-up sentence embedding representations (SentEmb and MappSent). The first approach (SentEmb) is a simple sum of word embedding vectors of each sequence (sentence, question, answer...), and the second approach ( MappSent) is a more sophisticated approach that uses a mapping matrix to improve sentence representation. 
+The evaluation is performed using two bottom-up sentence embedding representations (SentEmb and MappSent). The first approach (SentEmb) is a simple sum of word embedding vectors of each sequence (sentence, question, answer...), and the second approach ( MappSent) is a more sophisticated approach that uses a mapping matrix to improve sentence representation. 
 
 The paper can be found [here](http://www.amirhazem.ovh/publications/year/2018/LREC/LREC_2018_Paper_Textual_Similarity.pdf)
 
