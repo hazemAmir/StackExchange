@@ -35,6 +35,7 @@ We provide 19 data sets that we extracted from the StackExchange community quest
     AskUbuntu     | 11.1M  |    248k    |     79.1k       |  7912   |
     Math          | 28.8M  |    702k    |      168k       | 16820   |
     -----------------------------------------------------------------
+                Size of the multi-domain datasets 
 ```
 - Corpus:            each corpus orresponds to a given StackExchange topic.     
 - token:             number of tokens of all the posts of a given topic.   
